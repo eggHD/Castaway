@@ -1,0 +1,77 @@
+.cta {
+    padding: 100px 0;
+}
+
+.cta__row {
+    position: relative;
+
+    padding: 60px;
+    min-height: 387px;
+
+    display: flex;
+    justify-content: space-between;
+    column-gap: 76px;
+
+    border-radius: 32px;
+    background-color: $black;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        left: -40px;
+        bottom: -25px;
+        width: 147px;
+        height: 91px;
+
+        background-image: url("./../../img/elements/cta-el-01.png");
+    }
+}
+
+.cta__desc {
+    max-width: 431px;
+}
+
+.cta__title {
+    font-size: 72px;
+    line-height: 1.1;
+    letter-spacing: 2.88px;
+}
+
+.cta__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.cta__form-input {
+    width: 522px;
+    height: 82px;
+    padding: 26px 19px;
+    border-radius: 6px;
+    background-color: $page-color;
+}
+
+.cta__form-button {
+    width: 87px;
+    height: 48px;
+    padding: 9px 15px 10px 19px;
+    border-radius: 6px;
+
+    opacity: 0.7;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.92;
+
+    background-color: $accent;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        color: $page-color;
+    }
+
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}

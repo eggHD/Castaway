@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+body {
+    font-family: $font-main;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+
+    color: $text-color;
+    background-color: $page-color;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.none {
+    display: none !important;
+}
+
+.active {
+    color: $accent;
+}
+
+.visually-hidden {
+    /* Contain text within 1px box */
+    height: 1px;
+    overflow: hidden;
+    width: 1px;
+
+    /* Keep the layout */
+    position: absolute;
+
+    /* Remove any visible trace (e.g. backround color) */
+    clip: rect(1px 1px 1px 1px);    /* IE6, IE7 */
+    clip: rect(1p, 1px, 1px, 1px);
+    clip-path: inset(50%);  /* browers in the future */
+
+    /* Prevent the screen reader to skip spaces beetwen words */
+    white-space: nowrap;
+}

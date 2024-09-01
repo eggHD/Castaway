@@ -1,0 +1,69 @@
+.episodes {
+    padding: 93px 0 100px;
+}
+
+.episodes__top {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.episodes__title {
+    font-size: 64px;
+    line-height: 1.237;
+    letter-spacing: 2.88px;
+}
+
+.episodes__item {
+    margin-bottom: 60px;
+    padding: 40px;
+    border-radius: 32px;
+    background-color: $black;
+}
+
+.episodes__item-row {
+    display: flex;
+    column-gap: 53px;
+}
+
+.episodes__item-img {
+    max-width: 389px;
+    height: auto;
+}
+
+.episodes__item-desc {
+    max-width: 778px;
+
+    & > p {
+        margin-bottom: 17.56px;
+        font-size: 17px;
+        line-height: 1.588;
+    }
+}
+
+.episodes__item-plate {
+    margin-bottom: 48.44px;
+    padding: 0 6px;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: $page-color;
+}
+
+.episodes__item-title {
+    margin-bottom: 28px;
+    max-width: 701px;
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: 2.56px;
+}
+
+.episodes__item-text {
+    margin-bottom: 18px;
+    opacity: 0.7;
+
+    & p + p {
+        margin-top: 0.5em;
+    }
+}

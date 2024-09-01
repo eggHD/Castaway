@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+
+    & a:not(.active) {
+        color: $text-color;
+    }
+
+    & a:hover {
+        color: $accent;
+        transition: color .2s ease-in;
+    }
+}
+
+.nav__toggle {
+    display: none;
+}

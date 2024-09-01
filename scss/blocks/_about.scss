@@ -1,0 +1,35 @@
+.about {
+    padding: 100px 0;
+}
+
+.about__row {
+    display: flex;
+    align-items: center;
+    column-gap: 94px;
+}
+
+.about__desc {
+    max-width: 590px;
+}
+
+.about__title {
+    margin-bottom: 28px;
+    font-size: 65px;
+    line-height: 1.218;
+    letter-spacing: 2.88px;
+}
+
+.about__text {
+    font-size: 22px;
+
+    & p + p {
+        margin-top: 1.5em;
+    }
+}
+
+.about__img {
+    & img {
+        max-width: 100%;
+        border-radius: 12px;
+    }
+}

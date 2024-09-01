@@ -1,0 +1,39 @@
+.footer {
+    padding: 100px 0;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 16px;
+}
+
+.footer__logo {
+    & .logo {
+        margin-bottom: 20px;
+    }
+}
+
+.footer__logo-socials {
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer__list {
+    font-size: 17px;
+    line-height: 1.588;
+
+    & li {
+        margin-bottom: 10px;
+
+        & a {
+            color: $text-color;
+        }
+    }
+}
+
+.footer__socials {
+    display: flex;
+    column-gap: 17px;
+}

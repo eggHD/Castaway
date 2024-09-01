@@ -1,0 +1,35 @@
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 12px;
+
+    font-size: 17px;
+    line-height: 1.588;
+
+    color: $text-color;
+    background-color: $accent;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        color: $page-color;
+    }
+
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}
+
+.circle__btn {
+    margin-bottom: 20px;
+    padding: 34px 24px 40px 17px;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background-color: $accent;
+
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}
